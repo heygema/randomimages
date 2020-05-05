@@ -1,4 +1,9 @@
 {
-  "name": "randomimages",
-  "version": 2
+  "version": 2,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/index.ts"
+    }
+  ]
 }
